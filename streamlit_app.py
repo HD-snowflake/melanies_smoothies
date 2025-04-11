@@ -8,7 +8,7 @@ import streamlit as st
 st.title(f":cup_with_straw: Customize your smoothie :cup_with_straw: ")
 
 from snowflake.snowpark.functions import col
-session = get_active_session()
+#session = get_active_session()
 
 
 name_on_order = st.text_input('Name on smoothie')
